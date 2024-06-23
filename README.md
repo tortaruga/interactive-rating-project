@@ -23,12 +23,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./images/Screenshot%202024-06-23%20at%2014-59-46%20Frontend%20Mentor%20Interactive%20rating%20component.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/interactive-rating-wfL7_JRICQ](https://www.frontendmentor.io/solutions/interactive-rating-wfL7_JRICQ)
+- Live Site URL: [Add live site URL here](https://tortaruga.github.io/interactive-rating-project/)
 
 ### Built with
 

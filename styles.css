@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --orange: hsl(25, 97%, 53%);
+    --white: hsl(0, 0%, 100%);
+    --light-grey: hsl(217, 12%, 63%);
+    --dark-blue: hsl(213, 19%, 18%);
+    --very-dark-blue: hsl(216, 12%, 8%);
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'overpass', sans-serif;
+}
+
+body {
+    background-color: var(--very-dark-blue);
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--light-grey);
+}
+
+main {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.card {
+    background: linear-gradient(to top, hsl(213, 19%, 18%, .3), hsl(213, 19%, 18%, .8));
+    padding: 2rem;
+    border-radius: 1rem;
+    width: clamp(25rem, 90%, 10rem);
+}
+
+
+#icon-wrapper {
+    border-radius: 50%;
+    background: var(--light-grey);
+    width: 2rem;
+    aspect-ratio: 1;
+    padding: .5rem;
+    background: hsl(217, 12%, 63%, .2) url(./images/icon-star.svg) no-repeat;
+    background-position: center;
+ }
+
+h1 {
+    color: var(--white);
+    margin-bottom: 0;
+    font-size: 1.7rem;
+}
+
+p {
+    margin-top: .5rem;
+}
+
+.rating-btns {
+    display: flex;
+    justify-content: space-between;
+    margin-block: 1.5rem;
+    gap: .5rem;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+}
+
+.rating-btn {
+    border-radius: 50%;
+    width: 2.8rem;
+    aspect-ratio: 1;
+    background: hsl(217, 12%, 63%, .2);
+    color: var(--light-grey);
+    font-size: .9rem;
+    font-weight: 700;
+}
+
+.rating-btn:hover {
+    color: var(--very-dark-blue);
+    background-color: var(--orange);
+}
+
+.active {
+    background-color: var(--white);
+    color: var(--very-dark-blue);
+}
+
+#submit-btn {
+    width: 100%;
+    border-radius: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-block: .7rem;
+    background: var(--orange);
+    color: var(--very-dark-blue);
+}
+
+#submit-btn:hover {
+    background: var(--white);
+}
+
+#thank-you-card {
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.user-rating-display {
+    background: hsl(217, 12%, 63%, .2);
+    border-radius: 1rem;
+    padding: .4rem 1rem;
+    color: var(--orange);
+    width: max-content;
+    margin: 1rem auto;
+}
+
+footer {
+    padding: 2rem;
+}
+
+.attribution a {
+    color: var(--orange)
+}
